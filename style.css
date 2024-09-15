@@ -6,16 +6,53 @@ nav {
     flex-direction: column;
 }
 
+.row {
+    background-color: #200086;
+    display: flex;
+    width:90%;
+    justify-content: space-around;
+    margin-left: 5%;
+    height: fit-content;
+}
+
+
+
+.colum img {
+    height: 30%;
+}
+
+.divRow {
+    background-color: #200086;
+}
+
+.colum {
+    background-color: #fff;
+    border-radius: 10px;
+    width: 23%;
+    margin-right: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50px;
+}
+
+.colum h2, .colum h3, .colum img {
+    margin-bottom: 15px;
+}
+
+button {
+    border-radius: 10px;
+    color: #fff;
+    background-color: #200086;
+}
+
 footer {
     background-color: #200086;
     width: 100%;
     height: 10vh;
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    /* text-align: center; */
+    text-align: center;
     display: flex;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
     color: #fff;
 }
